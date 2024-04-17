@@ -2,7 +2,7 @@
 
 Este projeto consiste em um script Python desenvolvido para gerar dados simulados de vendas e produtos, armazená-los em arquivos CSV e, em seguida, integrá-los em um "data warehouse" usando a biblioteca pandas. O objetivo é fornecer uma ferramenta útil para aprendizado e prática em manipulação de dados e integração de conjuntos de dados heterogêneos.
 
-## Dados Gerados, código 1:
+## Dados gerados código 1:
 ![Print Google Colab](https://i.imgur.com/jpSPuNI.png)
 
 Os dados gerados incluem informações sobre produtos e vendas:
@@ -20,6 +20,41 @@ Os resultados obtidos a partir da execução do código incluem:
 - Armazenamento desses dados em arquivos CSV ('vendas.csv' e 'produtos.csv').
 - Mesclagem dos dados em um único conjunto de dados representando um "data warehouse" ('data_warehouse.csv').
 
+# Dados gerados código 2:
+![Print Google Colab](https://i.imgur.com/0XmEz1F.png)
+  
+## Análise de vendas e desempenho de Produtos
+
+Este trecho contém análises de vendas e desempenho de produtos realizadas a partir de um conjunto de dados de um data warehouse gerado com base no código 1. As análises foram conduzidas utilizando Python, com o auxílio das bibliotecas Pandas e Matplotlib para manipulação e visualização dos dados, respectivamente.
+
+## Análises Realizadas:
+
+1. **Análise de Vendas por Produto:** Calcula o total de vendas e o valor total das vendas para cada produto listado no data warehouse.
+
+2. **Análise de Vendas por Categoria de Produto:** Agrupa os dados de vendas por categoria de produto, calculando o total de vendas e o valor total das vendas para cada categoria.
+
+3. **Análise de Tendências Temporais:** Converte a coluna de data para o tipo datetime e agrupa as vendas por data, permitindo uma análise das tendências temporais ao longo do período dos dados.
+
+4. **Análise de Desempenho de Produtos:** Calcula o valor total das vendas para cada produto, fornecendo insights sobre o desempenho individual de cada item.
+
+## Resultados:
+
+Os resultados das análises estão disponíveis no seguinte Google Colab Notebook:
+
+[Análise de Vendas e Desempenho de Produtos](link_do_seu_google_colab)
+
+Para mais detalhes sobre os dados utilizados e o código implementado, consulte o notebook Python fornecido neste repositório.
+
+## Visualização de Dados:
+
+Além das análises mencionadas, o código também inclui a criação de um gráfico de linha mostrando a quantidade vendida ao longo do tempo.
+
 ## Acesso ao Google Colab
 
-O código utilizado neste projeto está disponível no [Google Colab](https://colab.research.google.com/drive/1lb7AyWNA10QpnyAtfmnO6WTBD3E-8jer?usp=sharing). Você pode acessá-lo e executá-lo diretamente no seu navegador.
+O código utilizado nos projetos acima estão disponíveis nos links:
+
+ [Datawarehouse (Código 1)](https://colab.research.google.com/drive/1lb7AyWNA10QpnyAtfmnO6WTBD3E-8jer?usp=sharing). 
+ 
+ [Datawarehouse (Código 1 )](https://colab.research.google.com/drive/1lb7AyWNA10QpnyAtfmnO6WTBD3E-8jer?usp=sharing). 
+
+Você pode acessá-los e executar diretamente no seu navegador.

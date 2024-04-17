@@ -25,7 +25,7 @@ Os resultados obtidos a partir da execução do código incluem:
   
 ## Análise de vendas e desempenho de Produtos
 
-Este trecho contém análises de vendas e desempenho de produtos realizadas a partir de um conjunto de dados de um data warehouse gerado com base no código 1. As análises foram conduzidas utilizando Python, com o auxílio das bibliotecas Pandas e Matplotlib para manipulação e visualização dos dados, respectivamente.
+Este trecho contém análises de vendas e desempenho de produtos realizadas a partir de um conjunto de dados de um data warehouse gerado através do código 1 `'data_warehouse.csv'`. As análises foram conduzidas utilizando Python, com o auxílio das bibliotecas Pandas e Matplotlib para manipulação e visualização dos dados, respectivamente.
 
 ## Análises Realizadas:
 
@@ -39,13 +39,7 @@ Este trecho contém análises de vendas e desempenho de produtos realizadas a pa
 
 ## Resultados:
 
-Os resultados das análises estão disponíveis no seguinte Google Colab Notebook:
-
-[Análise de Vendas e Desempenho de Produtos](link_do_seu_google_colab)
-
-Para mais detalhes sobre os dados utilizados e o código implementado, consulte o notebook Python fornecido neste repositório.
-
-## Visualização de Dados:
+Os resultados das análises estão disponíveis no arquivo [Datawarehouse_codigo2.ipynb](https://github.com/jesercaceres/Datawarehouse/blob/main/DataWarehouse_codigo2.ipynb)
 
 Além das análises mencionadas, o código também inclui a criação de um gráfico de linha mostrando a quantidade vendida ao longo do tempo.
 
@@ -55,6 +49,6 @@ O código utilizado nos projetos acima estão disponíveis nos links:
 
  [Datawarehouse (Código 1)](https://colab.research.google.com/drive/1lb7AyWNA10QpnyAtfmnO6WTBD3E-8jer?usp=sharing). 
  
- [Datawarehouse (Código 1 )](https://colab.research.google.com/drive/1lb7AyWNA10QpnyAtfmnO6WTBD3E-8jer?usp=sharing). 
+ [Datawarehouse (Código 2 )](https://colab.research.google.com/drive/1WgOyZp9Sen6DXddz0GupjNdx3APbbCsj?usp=sharing). 
 
 Você pode acessá-los e executar diretamente no seu navegador.

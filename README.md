@@ -1,4 +1,6 @@
-# Geração de Dados e Data Warehouse
+# Geração de dados e utilização de Data Warehouse
+
+![Print Google Colab](https://i.imgur.com/kRrBONk.png)
 
 Este projeto consiste em um script Python desenvolvido para gerar dados simulados de vendas e produtos, armazená-los em arquivos CSV e, em seguida, integrá-los em um "data warehouse" usando a biblioteca pandas. O objetivo é fornecer uma ferramenta útil para aprendizado e prática em manipulação de dados e integração de conjuntos de dados heterogêneos.
 
